@@ -57,8 +57,7 @@ hr {
 .bg-image {
   background-image: url(ashsnow.png);
   /*filter: blur(2px);*/
-  display: inline-block;
-  position: absolute;
+
 
   /* Center and scale the image nicely */
    background-position: center;
@@ -171,7 +170,6 @@ iframe {
   border: none;
 }
 
-
 @media (max-width: 1028px) {
   body {
     font-size: 200%;
@@ -193,5 +191,7 @@ iframe {
 
 
   .bg-image {
+    background-image: url(seeds.png);
+
   }
 }
