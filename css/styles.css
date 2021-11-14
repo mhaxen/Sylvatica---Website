@@ -1,0 +1,165 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  width:100%
+}
+
+h1 {
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 3em;
+
+}
+
+h2 {
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 2em;
+  text-align: left;
+}
+
+p, ol {
+  color: white;
+  font-size: 1.2em;
+  text-align: left;
+  font-family: 'Merriweather', sans-serif;
+
+}
+
+a {
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  text-decoration: none;
+  color: white;
+  font-size: 1.7em;
+}
+
+.bottom-logo {
+  padding: 24px;
+}
+
+a:hover {
+  color: red;
+  font-weight: 900;
+  text-decoration: none;;
+}
+
+img {
+  padding: 32px;
+  margin: 0 auto;
+}
+
+hr {
+  margin: 32px auto;
+  border-color: white;
+}
+
+.bg-image {
+  background-image: url(ashsnow.png);
+  /*filter: blur(2px);*/
+  display: inline-block;
+  position: absolute;
+
+  /* Center and scale the image nicely */
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+
+  height: 150%;
+  width: 100%;
+
+  overflow: auto;
+
+}
+
+
+/*INDEX*/
+
+/*Upper*/
+
+
+
+.upper-section {
+  margin: 0 auto 0 auto;
+  width: 50%;
+  padding: 72px;
+  text-align: center;
+
+}
+
+.home {
+  width: 100%;
+}
+
+.navbar {
+  margin: 32px;
+  width: 100%;
+  position: relative;
+  display: inline-block;
+
+}
+
+.navbardot {
+  color: white;
+  padding: 8px;
+}
+
+
+
+/*Middle*/
+
+.middle-section {
+  text-align: center;
+  padding: 32px;
+  margin: 0 auto 0 auto;
+  width: 50%;
+  background-color: black;
+  opacity: 0.9;
+}
+
+.video {
+  margin: 0 auto;
+  height: 440px;
+}
+
+.latest-rel {
+  display: inline-block;
+}
+
+/*Bottom Section*/
+
+.bottom-section {
+  text-align: center;
+  padding: 32px;
+  margin: 0 auto 0 auto;
+  width: 100%;
+  background-color: black;
+  overflow: auto;
+}
+
+.logo-img {
+  margin: 0 auto 0 auto;
+  width: 100%;
+}
+
+/*DISCOGRAPHY*/
+
+.album-img {
+  float: left;
+  width: 42%;
+  margin: 12px auto;
+}
+
+.album-emb {
+  margin: 42px auto;
+}
+
+@media (max-width: 1028px) {
+  .middle-section {
+    width: 100%;
+  }
+
+  .upper-section {
+    width: 100%;
+  }
+}
