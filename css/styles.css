@@ -65,8 +65,8 @@ hr {
    background-repeat: no-repeat;
    background-size: cover;
 
-  height: 150%;
-  width: 100%;
+  height: 100%;
+  width: auto;
 
   overflow: auto;
 
@@ -103,6 +103,11 @@ hr {
   color: white;
   padding: 8px;
 }
+
+.navbtn {
+  text-shadow: 2px 2px black;
+}
+
 
 
 
@@ -166,5 +171,8 @@ hr {
   .upper-section {
     width: 100%;
     font-weight: bold;
+  }
+
+  .bg-image {
   }
 }
