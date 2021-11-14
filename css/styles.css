@@ -155,11 +155,16 @@ hr {
 }
 
 @media (max-width: 1028px) {
+  body {
+    font-size: 200%;
+  }
+
   .middle-section {
     width: 100%;
   }
 
   .upper-section {
     width: 100%;
+    font-weight: bold;
   }
 }
