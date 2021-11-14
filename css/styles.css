@@ -176,3 +176,16 @@ hr {
   .bg-image {
   }
 }
+
+
+/* MERCH */
+
+.bandcamp {
+  text-align: center;
+}
+
+iframe {
+  border: none;
+  scroll-behavior: smooth;
+
+}
