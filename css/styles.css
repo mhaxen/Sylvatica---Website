@@ -159,6 +159,19 @@ hr {
   margin: 42px auto;
 }
 
+
+/* MERCH */
+
+.bandcamp {
+  margin: auto;
+  width: 50%;
+}
+
+iframe {
+  border: none;
+}
+
+
 @media (max-width: 1028px) {
   body {
     font-size: 200%;
@@ -168,24 +181,17 @@ hr {
     width: 100%;
   }
 
+  .bandcamp {
+    width: 100%;
+  }
+
+
   .upper-section {
     width: 100%;
     font-weight: bold;
   }
 
+
   .bg-image {
   }
-}
-
-
-/* MERCH */
-
-.bandcamp {
-  text-align: center;
-}
-
-iframe {
-  border: none;
-  scroll-behavior: smooth;
-
 }
