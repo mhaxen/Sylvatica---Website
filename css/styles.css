@@ -56,6 +56,10 @@ hr {
 
 .bg-image {
   background-image: url(ashsnow.png);
+
+  /* background-image: url(seeds.png); */
+
+
   /*filter: blur(2px);*/
 
 
@@ -149,9 +153,7 @@ hr {
 /*DISCOGRAPHY*/
 
 .album-img {
-  float: left;
-  width: 42%;
-  margin: 12px auto;
+  width: 100%;
 }
 
 .album-emb {
@@ -164,6 +166,7 @@ hr {
 .bandcamp {
   margin: auto;
   width: 50%;
+  background-color: white;
 }
 
 iframe {
@@ -183,6 +186,13 @@ iframe {
     width: 100%;
   }
 
+  .album-img {
+    padding: 20%;
+  }
+
+  h2 {
+    text-align: center;
+  }
 
   .upper-section {
     width: 100%;
@@ -191,7 +201,5 @@ iframe {
 
 
   .bg-image {
-    background-image: url(seeds.png);
-
   }
 }
