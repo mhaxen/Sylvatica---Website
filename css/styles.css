@@ -91,7 +91,7 @@ hr {
 }
 
 .home {
-  width: 100%;
+  width: 80%;
 }
 
 .navbar {
@@ -166,14 +166,14 @@ hr {
 .bandcamp {
   margin: auto;
   width: 50%;
-  background-color: white;
+  background-color: #350e3f;
 }
 
 iframe {
   border: none;
 }
 
-@media (max-width: 1028px) {
+@media (max-width: 720px) {
   body {
     font-size: 200%;
   }
@@ -199,6 +199,9 @@ iframe {
     font-weight: bold;
   }
 
+  .album-emb {
+    width: 100%;
+  }
 
   .bg-image {
   }
