@@ -173,7 +173,7 @@ iframe {
   border: none;
 }
 
-@media (max-width: 720px) {
+@media (max-width: 920px) {
   body {
     font-size: 200%;
   }
