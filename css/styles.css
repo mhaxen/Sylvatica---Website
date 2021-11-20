@@ -186,9 +186,9 @@ hr {
 
 
 @media (max-width: 1000px) {
-  /* body {
-    font-size: 120%;
-  } */
+  body {
+    font-size: 150%;
+  }
 
   .middle-section, .bandcamp, .album-emb, .upper-section {
     width: 100%;
@@ -201,11 +201,6 @@ hr {
   h2 {
     text-align: center;
   }
-
-  .upper-section {
-    font-weight: bold;
-  }
-
 
   .bg-image {
   }
