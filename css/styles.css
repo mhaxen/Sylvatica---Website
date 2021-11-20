@@ -188,8 +188,12 @@ hr {
     font-size: 150%;
   }
 
-  .middle-section, .bandcamp, .album-emb, .upper-section {
+  .bottom-section, .middle-section, .bandcamp, .album-emb, .upper-section {
     width: 100%;
+  }
+
+  .bottom-section {
+    padding-bottom: 50%;
   }
 
   .album-img {
