@@ -129,7 +129,7 @@ hr {
 
 .middle-section {
   text-align: center;
-  padding: 32px;
+  padding: 8px 32px 32px;
   margin: 0 auto 0 auto;
   width: 50%;
   background-color: #0e0d36;
@@ -183,7 +183,10 @@ hr {
 
 
 
-@media (max-width: 1000px) {
+@media screen
+and (max-device-width: 1400px)
+and (min-device-width: 480px)
+ {
   body {
     font-size: 150%;
   }
