@@ -1,5 +1,7 @@
-// title events
+//imports
 
+
+//mouse behavior
 $(".home").mouseenter(
   function(){
   $(".home").animate({
