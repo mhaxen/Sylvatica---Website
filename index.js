@@ -2,7 +2,6 @@
 const express = require("express");
 
 
-
 //application behavior
 app = express();
 app.use(express.static("public"));
